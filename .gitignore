@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE / Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs & cache
+*.log
+.cache/
+.env
+.env.local
+
+# Geçici / arşiv
+*.htm
+*.bak
+*.tmp
