@@ -34,3 +34,16 @@ tic-tac-toe/
 ├── style.css    # Stiller
 └── README.md
 ```
+
+## GitHub'a Yükleme
+
+1. GitHub'da yeni bir boş repo oluşturun (örn. `tic-tac-toe`).
+2. Repo oluştururken README veya .gitignore eklemeyin.
+3. Proje klasöründe:
+
+```bash
+git remote add origin https://github.com/KULLANICI_ADINIZ/repo-adi.git
+git push -u origin main
+```
+
+`KULLANICI_ADINIZ` ve `repo-adi` kendi bilgilerinizle değiştirin.
