@@ -1,49 +1,49 @@
 # Tic Tac Toe
 
-Bitirme projesi — iki kişilik klasik XOX oyunu.
+Final project — two-player classic Tic Tac Toe game.
 
-## Açıklama
+## Description
 
-İki oyunculu Tic Tac Toe. Oyuncu isimleri girişi, sıra göstergesi ve kazanan/berabere bildirimi içerir.
+Two-player Tic Tac Toe with customizable player names, turn indicator, and win/draw announcements.
 
-## Kullanılan Teknolojiler
+## Technologies Used
 
 - HTML5
 - CSS3 (Flexbox, Grid, responsive)
 - JavaScript (Factory Functions, Module Pattern)
 
-## Nasıl Çalıştırılır
+## How to Run
 
-1. Projeyi indirin veya klonlayın.
-2. `index.html` dosyasını tarayıcıda açın (çift tıklama veya sürükle-bırak).
-3. Açılan pencerede her iki oyuncunun ismini girin ve "Confirm" ile başlatın.
-4. Sırayla hücrelere tıklayarak oynayın. "Reset" ile tahtayı sıfırlayabilirsiniz.
+1. Download or clone the project.
+2. Open `index.html` in your browser (double-click or drag and drop).
+3. Enter both players' names in the dialog and click "Confirm" to start.
+4. Take turns clicking cells to play. Use "Reset" to clear the board.
 
-## Oyun Kuralları
+## Game Rules
 
-- İki oyuncu (X ve O) sırayla boş bir hücreye işaret koyar.
-- Yatay, dikey veya çapraz üç işaret yapan oyuncu kazanır.
-- Tüm hücreler dolar ve kazanan olmazsa oyun berabere biter.
+- Two players (X and O) take turns placing their mark in an empty cell.
+- The first to get three in a row (horizontal, vertical, or diagonal) wins.
+- If all cells are filled with no winner, the game is a draw.
 
-## Proje Yapısı
+## Project Structure
 
 ```
 tic-tac-toe/
-├── index.html   # Ana sayfa ve oyun arayüzü
-├── game.js      # Oyun mantığı
-├── style.css    # Stiller
+├── index.html   # Main page and game UI
+├── game.js      # Game logic
+├── style.css    # Styles
 └── README.md
 ```
 
-## GitHub'a Yükleme
+## Upload to GitHub
 
-1. GitHub'da yeni bir boş repo oluşturun (örn. `tic-tac-toe`).
-2. Repo oluştururken README veya .gitignore eklemeyin.
-3. Proje klasöründe:
+1. Create a new empty repository on GitHub (e.g. `tic-tac-toe`).
+2. Do not add README or .gitignore when creating the repo.
+3. In the project folder run:
 
 ```bash
-git remote add origin https://github.com/KULLANICI_ADINIZ/repo-adi.git
+git remote add origin https://github.com/YOUR_USERNAME/repo-name.git
 git push -u origin main
 ```
 
-`KULLANICI_ADINIZ` ve `repo-adi` kendi bilgilerinizle değiştirin.
+Replace `YOUR_USERNAME` and `repo-name` with your own.
